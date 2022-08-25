@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "build",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "experimentalDecorators": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "plugins": [
+      {
+        "name": "ts-lit-plugin",
+        "strict": true
+      }
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "@assets/*": ["src/assets/*"],
+      "@components/*": ["src/components/*"]
+    }
+  },
+  "include": ["src/**/*.ts"]
+}

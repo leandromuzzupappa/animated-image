@@ -1,0 +1,48 @@
+{
+  "name": "animated-image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --port 3000 --open",
+    "build": "vite build",
+    "preview": "vite preview  --port 8080 --open",
+    "lint": "run-s lint:*",
+    "lint:eslint": "eslint 'src/**/*.{js,ts}'",
+    "lint:lit-analyzer": "lit-analyzer --quiet",
+    "format": "prettier \"**/*.{cjs,html,js,json,md,ts}\" --ignore-path ./.eslintignore --write"
+  },
+  "keywords": [],
+  "author": "Leandro Muzzupappa",
+  "license": "ISC",
+  "dependencies": {
+    "gsap": "^3.11.0",
+    "lit": "^2.3.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-replace": "^4.0.0",
+    "@types/node": "^18.7.13",
+    "@typescript-eslint/eslint-plugin": "^5.35.1",
+    "@typescript-eslint/parser": "^5.35.1",
+    "@web/rollup-plugin-html": "^1.11.0",
+    "eslint": "^8.22.0",
+    "eslint-plugin-lit-a11y": "^2.2.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "lit-analyzer": "^0.0.6",
+    "prettier": "^2.7.1",
+    "rollup": "^2.78.1",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-summary": "^1.4.3",
+    "ts-lit-plugin": "^1.0.5",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.9",
+    "vite-imagetools": "^4.0.4",
+    "vite-plugin-html": "^3.2.0",
+    "vite-plugin-imagemin": "^0.4.6",
+    "vite-tsconfig-paths": "^3.5.0"
+  }
+}
