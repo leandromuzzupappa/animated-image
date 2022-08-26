@@ -56,7 +56,7 @@ export default defineConfig(({ command, mode }) => {
 
   if (command === "build") {
     return {
-      plugins: [...vitePlugins, minifyHtml()],
+      plugins: [...vitePlugins],
       build: {
         rollupOptions,
         outDir: "build",
