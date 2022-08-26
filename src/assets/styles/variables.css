@@ -1,0 +1,19 @@
+:root {
+  --clr-neutral-100: #ffffff;
+  --clr-neutral-900: #1a1a1a;
+  --clr-bg: #090915;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: var(--clr-bg);
+}
